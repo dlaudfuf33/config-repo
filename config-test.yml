@@ -3,7 +3,6 @@ server:
 spring:
   applications:
     name: config-test
-
   datasource:
     url: jdbc:mysql://localhost:3306/petclinic_msa
     username: root
