@@ -5,7 +5,7 @@ spring:
     name: config-test
 
   datasource:
-    url: jdbc:postgresql://localhost:3306/petclinic_msa
+    url: jdbc:mysql://localhost:3306/petclinic_msa
     username: root
     password: dkrakek1
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -17,5 +17,5 @@ spring:
         hibernate:
           dialect: org.hibernate.dialect.MySQLDialect
 
-      show-sql: true
-      format-sql: true
+    show-sql: true
+    format-sql: true
