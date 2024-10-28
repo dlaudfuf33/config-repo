@@ -6,7 +6,7 @@ spring:
     name: reservation-service
 
   r2dbc:
-    url: r2dbc:mysql://localhost:3306/petclinic_reservation
+    url: r2dbc:mysql://localhost:3306/petclinic_msa
     username: root
     password: dkrakek1
 
