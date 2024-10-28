@@ -6,7 +6,7 @@ spring:
     name: reservation-service
 
   datasource:
-    url: jdbc:mysql://localhost:3306/petclinic_reservation
+    url: jdbc:mysql://localhost:3306/petclinic_msa
     username: root
     password: dkrakek1
     driver-class-name: com.mysql.cj.jdbc.Driver
